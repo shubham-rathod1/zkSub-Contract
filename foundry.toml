@@ -3,4 +3,9 @@ src = "src"
 out = "out"
 libs = ["lib"]
 
+[rpc_endpoints]
+# zksync_testnet = "https://sepolia.era.zksync.dev"
+ethereum_holesky = "https://ethereum-holesky.publicnode.com"
+# chain_id = 300
+
 # See more config options https://github.com/foundry-rs/foundry/tree/master/config
